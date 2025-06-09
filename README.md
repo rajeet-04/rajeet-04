@@ -1,85 +1,21 @@
-<!--
-  
-  Welcome to my polished GitHub Profile README!
-  
--->
+# 💫 About Me:
+🔭 I’m currently working on<br>👯 I’m looking to collaborate on<br>🤝 I’m looking for help with<br>🌱 I’m currently learning<br>💬 Ask me about<br>⚡ Fun fact
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waved&color=0:6c63ff,100:4be1ec&height=150&section=header&text=Hello%20World!&fontSize=60&animation=fadeIn" alt="Header Wave"/>
-</p>
 
-# Hi, I'm **Rajeet Ash** 👋
+## 🌐 Socials:
+[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/https://discord.gg/F22J6pdnJg) 
 
-### 🚀 About Me
+# 💻 Tech Stack:
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Expo](https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=rajeet-04&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=rajeet-04&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=rajeet-04&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
-- 🔭 I’m currently working on: **[Your Cool Project](https://github.com/rajeet-04/your-project)**
-- 🌱 I’m currently learning: **Advanced TypeScript**, **Go**, **AI/ML Concepts**
-- 👯 I’m looking to collaborate on: **Web Development**, **Data Science**, **Open-Source Tools**
-- 🤔 I’m seeking help with: **Optimizing Algorithms**, **UI/UX Feedback**
-- 💬 Ask me about: **Python**, **JavaScript**, **Robotics**, **DevOps**
-- 📫 How to reach me: `hi@rajeetash.dev`
-- 😄 Pronouns: **He/Him**
-- ⚡ Fun fact: I can solve a Rubik’s Cube in under a minute!
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 ---
+[![](https://visitcount.itsvg.in/api?id=rajeet-04&icon=0&color=0)](https://visitcount.itsvg.in)
 
-## 🛠️ Tech Stack & Tools
-
-<p align="center">
-  <img height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" />
-  <img height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" />
-  <img height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" />
-  <img height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" />
-  <img height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" />
-  <img height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />
-  <img height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" />
-  <img height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" />
-  <img height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/aws/aws-original.svg" />
-</p>
-
----
-
-## 🌐 Connect with Me
-
-<p align="center">
-  <a href="https://linkedin.com/in/rajeet-04" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://twitter.com/rajeet_04" target="_blank">
-    <img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
-  </a>
-  <a href="https://portfolio.rajeetash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-%23FF69B4.svg?style=for-the-badge&logo=react&logoColor=white" alt="Portfolio" />
-  </a>
-  <a href="mailto:hi@rajeetash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Gmail-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-</p>
-
----
-
-## 🔭 Featured Projects
-
-| Project | Description | Tech | Link |
-| ------- | ----------- | ---- | ---- |
-| **Project One** | A brief description of project one. | React, Node.js, MongoDB | [Repo](https://github.com/rajeet-04/project-one) |
-| **Project Two** | A brief description of project two. | Python, Django, PostgreSQL | [Repo](https://github.com/rajeet-04/project-two) |
-| **Project Three** | A brief description of project three. | Go, AWS, Docker | [Repo](https://github.com/rajeet-04/project-three) |
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rajeet-04&show_icons=true&theme=radical&count_private=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajeet-04&layout=compact&theme=radical" alt="Top Languages" />
-</p>
-
----
-
-![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=rajeet-04.visitor-badge)
-
-<!--
-  🔭 If you'd like to add animated contribution graph, consider using:
-  https://github.com/Ashutosh00710/github-readme-activity-graph
--->
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
