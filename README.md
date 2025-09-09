@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on<br>👯 I’m looking to collaborate on<br>🤝 I’m looking for help with<br>🌱 I’m currently learning<br>💬 Ask me about<br>⚡ Fun fact
+🔭 I’m currently working on WEB & NATIVE DEV, <br>👯 I’m looking to collaborate on open source projects<br>🤝 I’m looking for help with anything in field of AI and Robotics<br>🌱 I’m currently learningRust and ROS2<br>💬 Ask me about anything IG<br>⚡ Fun fact is I enjoy code and I'm happy
 
 
 ## 🌐 Socials:
