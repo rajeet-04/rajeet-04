@@ -219,11 +219,11 @@ graph TD
 
 | Domain | Technologies | Proficiency |
 |:---:|:---:|:---:|
-| **Robotics** | ROS2, Arduino, Embedded Systems | █████░░░░░ 50% |
-| **AI/ML** | Python, TensorFlow, Computer Vision | ██████░░░░ 60% |
-| **Web Dev** | React, Node.js, Django, Flask | ███████░░░ 70% |
+| **Robotics** | ROS2, Arduino, Embedded Systems | ████████░░ 80% |
+| **AI/ML** | Python, TensorFlow, Computer Vision | ███████░░░ 70% |
+| **Web Dev** | React, Node.js, Django, Flask | ████████░░ 80% |
 | **Mobile** | React Native, Kotlin, Expo | ███████░░░ 70% |
-| **Systems** | C/C++, Rust, Low-level Programming | ████░░░░░░ 40% |
+| **Systems** | C/C++, Rust, Low-level Programming | ██████░░░░ 60% |
 
 </div>
 
