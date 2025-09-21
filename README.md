@@ -4,7 +4,7 @@
 
 ### *Robotics & AI Engineer | Full-Stack Developer*
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00D4AA&center=true&width=435&lines=Robotics+%26+AI+Specialist;Full-Stack+Developer;Open+Source+Contributor;Learning+Rust+%26+ROS2)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00D4AA&center=true&width=435&lines=Robotics+%26+AI+Developer;Full-Stack+Developer;Open+Source+Contributor;Learning+Rust+%26+ROS2)](https://git.io/typing-svg)
 
 </div>
 
