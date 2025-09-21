@@ -331,8 +331,6 @@ timeline
 
 **Ready to build the future together?**
 
-[![Profile Views](https://visitcount.itsvg.in/api?id=rajeet-04&icon=2&color=12&text=Portfolio%20Views)](https://visitcount.itsvg.in)
-
 ---
 
 ### 📬 Get In Touch
