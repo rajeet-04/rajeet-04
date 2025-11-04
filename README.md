@@ -133,8 +133,8 @@ Below is a combined list (public + private) pulled from your GitHub summary. Thi
 
 | Name | Visibility | Language | Last Updated | Notes |
 |------|------------|----------|--------------|-------|
+| [uni-grade-marking-system](https://github.com/rajeet-04/uni-grade-marking-system) | Public | TypeScript | 04/11/2025 |  |
 | [rajeet-04](https://github.com/rajeet-04/rajeet-04) | Public | JavaScript | 04/11/2025 |  |
-| [uni-grade-marking-system](https://github.com/rajeet-04/uni-grade-marking-system) | Private | - | 04/11/2025 |  |
 | [Terminal](https://github.com/rajeet-04/Terminal) | Private | - | 31/10/2025 |  |
 | [GoogleGeminiUem](https://github.com/rajeet-04/GoogleGeminiUem) | Public (fork) | JavaScript | 31/10/2025 |  |
 | [Recipie-Rescue-Pro](https://github.com/rajeet-04/Recipie-Rescue-Pro) | Public | - | 27/10/2025 | GPL-3.0 |
@@ -184,6 +184,7 @@ Below is a combined list (public + private) pulled from your GitHub summary. Thi
 | [test](https://github.com/rajeet-04/test) | Private | CSS | 24/10/2024 |  |
 
 <!-- REPO_TABLE_END -->
+
 
 
 
