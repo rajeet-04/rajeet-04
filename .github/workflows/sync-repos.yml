@@ -9,29 +9,49 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+      - name: Checkout repository (manual)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          # Clone authenticated so we can push later
+          rm -rf repo || true
+          git clone https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} repo
+          cd repo
+          # Ensure correct branch
+          git fetch --all
+          if [ -n "${{ github.ref_name }}" ]; then
+            git checkout "${{ github.ref_name }}" || git checkout main
+          else
+            git checkout main
+          fi
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18'
+      - name: Install Node.js 18
+        run: |
+          set -e
+          curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+          sudo apt-get install -y nodejs
 
-      - name: Run update script
+      - name: Run update scripts
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
+        working-directory: repo
         run: |
           node ./scripts/update_repos.js
           node ./scripts/fetch_stats.js
 
-      - name: Commit and push changes
-        uses: EndBug/add-and-commit@v9
-        with:
-          author_name: 'github-actions[bot]'
-          author_email: '41898282+github-actions[bot]@users.noreply.github.com'
-          message: 'chore: sync repository table in README'
-          add: 'README.md gh_stats.svg'
+      - name: Commit & push changes (manual git)
+        working-directory: repo
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          git status --porcelain
+          git add README.md gh_stats.svg || true
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "chore: sync repository table in README"
+          # Push using the already-authenticated origin URL
+          git push origin HEAD
