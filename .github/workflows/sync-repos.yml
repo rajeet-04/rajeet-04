@@ -26,6 +26,26 @@ jobs:
             git checkout main
           fi
 
+      - name: Prepare clean working tree
+        working-directory: repo
+        run: |
+          set -e
+          # Make sure origin is up to date and we are on the correct branch
+          git fetch origin --prune
+          BRANCH="${GITHUB_REF_NAME:-main}"
+          # Checkout branch tracking origin; create local branch if needed
+          git checkout -B "$BRANCH" "origin/$BRANCH" || git checkout -B main origin/main
+          # If there are any in-progress merges, abort them and reset to remote
+          if [ -n "$(git ls-files -u)" ]; then
+            echo "Unmerged files detected; aborting merge and resetting to origin/$BRANCH"
+            git merge --abort || true
+            git reset --hard "origin/$BRANCH"
+          else
+            # Ensure clean working tree matching origin
+            git reset --hard "origin/$BRANCH"
+          fi
+          git clean -fdx
+
       - name: Install Node.js 18
         run: |
           set -e
