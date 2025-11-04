@@ -24,6 +24,7 @@ jobs:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           node ./scripts/update_repos.js
+          node ./scripts/fetch_stats.js
 
       - name: Commit and push changes
         uses: EndBug/add-and-commit@v9
@@ -31,6 +32,6 @@ jobs:
           author_name: 'github-actions[bot]'
           author_email: '41898282+github-actions[bot]@users.noreply.github.com'
           message: 'chore: sync repository table in README'
-          add: 'README.md'
+          add: 'README.md gh_stats.svg'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -200,7 +200,7 @@ Below is a combined list (public + private) pulled from your GitHub summary. Thi
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=rajeet-04&show_icons=true&theme=tokyonight)
+![GitHub Stats](./gh_stats.svg)
 
 ![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=rajeet-04&theme=tokyonight&hide_border=true)
 
