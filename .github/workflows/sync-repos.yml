@@ -46,10 +46,11 @@ jobs:
           fi
           git clean -fdx
 
-      - name: Install Node.js 18
+      - name: Install latest Node.js
         run: |
           set -e
-          curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+          # Install the latest Node.js available from NodeSource
+          curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
           sudo apt-get install -y nodejs
 
       - name: Run update scripts
@@ -67,6 +68,9 @@ jobs:
         run: |
           set -e
           git status --porcelain
+          # Configure a local committer identity so git commit won't fail in the runner
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
           git add README.md gh_stats.svg || true
           if git diff --staged --quiet; then
             echo "No changes to commit"
