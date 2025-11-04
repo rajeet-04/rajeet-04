@@ -2,7 +2,7 @@ name: Sync repositories to README
 
 on:
   schedule:
-    - cron: '0 6 * * *' # daily at 06:00 UTC
+    - cron: '0 * * * *' # hourly at minute 0 (every hour)
   workflow_dispatch: {}
 
 jobs:

@@ -200,11 +200,19 @@ Below is a combined list (public + private) pulled from your GitHub summary. Thi
 
 <div align="center">
 
-![GitHub Stats](./gh_stats.svg)
+<!-- Dynamic stats: primary (live) image fetches on each README render. Fallback below. -->
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=rajeet-04&show_icons=true&theme=tokyonight&cache_seconds=60)
 
 ![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=rajeet-04&theme=tokyonight&hide_border=true)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rajeet-04&theme=tokyonight&layout=compact)
+
+<details>
+<summary>Fallback: locally committed stats (used when the live card fails to render)</summary>
+
+![GitHub Stats Fallback](./gh_stats.svg)
+
+</details>
 
 </div>
 
