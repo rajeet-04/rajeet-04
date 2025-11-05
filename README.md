@@ -133,6 +133,7 @@ Below is a combined list (public + private) pulled from your GitHub summary. Thi
 
 | Name | Visibility | Language | Last Updated | Notes |
 |------|------------|----------|--------------|-------|
+| [rash](https://github.com/rajeet-04/rash) | Public | TypeScript | 05/11/2025 | Apache-2.0 |
 | [rajeet-04](https://github.com/rajeet-04/rajeet-04) | Public | JavaScript | 05/11/2025 |  |
 | [uni-grade-marking-system](https://github.com/rajeet-04/uni-grade-marking-system) | Public | TypeScript | 04/11/2025 |  |
 | [Terminal](https://github.com/rajeet-04/Terminal) | Private | - | 31/10/2025 |  |
@@ -148,7 +149,6 @@ Below is a combined list (public + private) pulled from your GitHub summary. Thi
 | [ros-movement](https://github.com/rajeet-04/ros-movement) | Public | Shell | 14/10/2025 |  |
 | [classroom-frontend](https://github.com/rajeet-04/classroom-frontend) | Private | JavaScript | 13/10/2025 |  |
 | [ros-sensor-integration](https://github.com/rajeet-04/ros-sensor-integration) | Public | - | 10/10/2025 | Apache-2.0 |
-| [rash](https://github.com/rajeet-04/rash) | Public | TypeScript | 10/10/2025 | Apache-2.0 |
 | [helper](https://github.com/rajeet-04/helper) | Private | Python | 08/10/2025 |  |
 | [gistify](https://github.com/xthxr/gistify) | Public | JavaScript | 06/10/2025 |  |
 | [E2Eclipse](https://github.com/rajeet-04/E2Eclipse) | Public | Kotlin | 06/10/2025 |  |
@@ -184,6 +184,7 @@ Below is a combined list (public + private) pulled from your GitHub summary. Thi
 | [test](https://github.com/rajeet-04/test) | Private | CSS | 24/10/2024 |  |
 
 <!-- REPO_TABLE_END -->
+
 
 
 
