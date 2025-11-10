@@ -133,7 +133,8 @@ Below is a combined list (public + private) pulled from your GitHub summary. Thi
 
 | Name | Visibility | Language | Last Updated | Notes |
 |------|------------|----------|--------------|-------|
-| [rajeet-04](https://github.com/rajeet-04/rajeet-04) | Public | JavaScript | 08/11/2025 |  |
+| [musox_frontend_v2](https://github.com/rajeet-04/musox_frontend_v2) | Public | JavaScript | 09/11/2025 |  |
+| [rajeet-04](https://github.com/rajeet-04/rajeet-04) | Public | JavaScript | 09/11/2025 |  |
 | [Payroll-AI-webapp](https://github.com/rajeet-04/Payroll-AI-webapp) | Public | TypeScript | 05/11/2025 | GPL-3.0 |
 | [rash](https://github.com/rajeet-04/rash) | Public | TypeScript | 05/11/2025 | Apache-2.0 |
 | [uni-grade-marking-system](https://github.com/rajeet-04/uni-grade-marking-system) | Public | TypeScript | 04/11/2025 |  |
@@ -159,7 +160,6 @@ Below is a combined list (public + private) pulled from your GitHub summary. Thi
 | [technologia.uem.edu.in](https://github.com/iemaserver/technologia.uem.edu.in) | Public | JavaScript | 17/08/2025 |  |
 | [poster](https://github.com/rajeet-04/poster) | Public | HTML | 31/07/2025 |  |
 | [portfolio](https://github.com/rajeet-04/portfolio) | Public (fork) | - | 24/07/2025 |  |
-| [musox_frontend_v2](https://github.com/rajeet-04/musox_frontend_v2) | Public | JavaScript | 28/06/2025 |  |
 | [backend](https://github.com/rajeet-04/backend) | Private | Python | 16/06/2025 |  |
 | [musox](https://github.com/rajeet-04/musox) | Public | Python | 15/06/2025 |  |
 | [OFFLINE_FILE_TRANSFER](https://github.com/rajeet-04/OFFLINE_FILE_TRANSFER) | Public | JavaScript | 15/06/2025 |  |
@@ -184,6 +184,7 @@ Below is a combined list (public + private) pulled from your GitHub summary. Thi
 | [test](https://github.com/rajeet-04/test) | Private | CSS | 24/10/2024 |  |
 
 <!-- REPO_TABLE_END -->
+
 
 
 
