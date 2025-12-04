@@ -335,6 +335,7 @@ Below is a combined list (public + private) pulled from your GitHub summary. Thi
 
 </div>
 
+> NOTE: If the external GitHub Readme Stats service is unavailable or paused, this repository uses a workflow fallback to generate a local `gh_stats.svg` by querying the GitHub API (GraphQL). To include private repo metrics in fallback mode, add a personal access token secret (`GH_PAT`) in the repository and give it repo-level read access (or fine-grained token with `Contents: Read & write` permission for the repo(s)).
 ---
 
 ## 🎯 Current Focus & Learning Path

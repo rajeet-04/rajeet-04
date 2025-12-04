@@ -53,11 +53,18 @@ jobs:
           curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
           sudo apt-get install -y nodejs
 
+      - name: Show Node version
+        run: |
+          node --version
+          npm --version
+
       - name: Run update scripts
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         working-directory: repo
         run: |
+          # Print whether GH_PAT is provided (without revealing the token)
+          if [ -z "${GH_PAT:-}" ]; then echo "GH_PAT not available"; else echo "GH_PAT available"; fi
           node ./scripts/update_repos.js
           node ./scripts/fetch_stats.js
 
