@@ -321,11 +321,11 @@ Below is a combined list (public + private) pulled from your GitHub summary. Thi
 <div align="center">
 
 <!-- Dynamic stats: primary (live) image fetches on each README render. Fallback below. -->
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=rajeet-04&show_icons=true&theme=tokyonight&cache_seconds=60)
+![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=rajeet-04&show_icons=true&theme=tokyonight&cache_seconds=60)
 
 ![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=rajeet-04&theme=tokyonight&hide_border=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rajeet-04&theme=tokyonight&layout=compact)
+![Top Languages](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=rajeet-04&theme=tokyonight&layout=compact)
 
 <details>
 <summary>Fallback: locally committed stats (used when the live card fails to render)</summary>
@@ -399,7 +399,7 @@ graph TD
 
 <div align="center">
 
-![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=rajeet-04&theme=tokyonight&no-frame=true&column=3&margin-w=15&margin-h=15)
+![GitHub Trophies](https://github-trophies.vercel.app/?username=rajeet-04&theme=tokyonight&no-frame=true&column=3&margin-w=15&margin-h=15)
 
 ### 🎯 Project Impact
 - **21+ Repositories** across diverse domains

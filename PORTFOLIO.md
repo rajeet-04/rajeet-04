@@ -163,11 +163,11 @@ let rajeet = Engineer {
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=rajeet-04&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&card_width=400)
+![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=rajeet-04&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&card_width=400)
 
 ![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=rajeet-04&theme=tokyonight&hide_border=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rajeet-04&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact&custom_title=Programming%20Languages)
+![Top Languages](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=rajeet-04&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact&custom_title=Programming%20Languages)
 
 </div>
 
@@ -233,7 +233,7 @@ graph TD
 
 <div align="center">
 
-![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=rajeet-04&theme=tokyonight&no-frame=true&column=3&margin-w=15&margin-h=15)
+![GitHub Trophies](https://github-trophies.vercel.app/?username=rajeet-04&theme=tokyonight&no-frame=true&column=3&margin-w=15&margin-h=15)
 
 ### 🎯 Project Impact
 - **21+ Repositories** across diverse domains

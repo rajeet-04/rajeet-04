@@ -29,7 +29,7 @@ if (!fetch) {
 }
 
 const OUT = path.join(__dirname, '..', 'gh_stats.svg');
-const EXTERNAL_URL = 'https://github-readme-stats.vercel.app/api?username=rajeet-04&show_icons=true&theme=tokyonight';
+const EXTERNAL_URL = 'https://github-readme-stats-sigma-five.vercel.app/api?username=rajeet-04&show_icons=true&theme=tokyonight';
 
 function svgTemplate({ name, stars, repos, followers, commits, prs, issues, topLangs }){
   const rows = [
