@@ -133,7 +133,10 @@ Below is a combined list (public + private) pulled from your GitHub summary. Thi
 
 | Name | Visibility | Language | Last Updated | Notes |
 |------|------------|----------|--------------|-------|
-| [rajeet-04](https://github.com/rajeet-04/rajeet-04) | Public | JavaScript | 07/12/2025 |  |
+| [Musox](https://github.com/rajeet-04/Musox) | Private | Dart | 08/12/2025 |  |
+| [musox_archive](https://github.com/rajeet-04/musox_archive) | Public | Python | 08/12/2025 | archived |
+| [classroom-frontend](https://github.com/rajeet-04/classroom-frontend) | Private | JavaScript | 08/12/2025 |  |
+| [rajeet-04](https://github.com/rajeet-04/rajeet-04) | Public | JavaScript | 08/12/2025 |  |
 | [rash](https://github.com/rajeet-04/rash) | Public | TypeScript | 04/12/2025 | Apache-2.0 |
 | [musox_frontend_v2](https://github.com/rajeet-04/musox_frontend_v2) | Public | JavaScript | 09/11/2025 |  |
 | [Payroll-AI-webapp](https://github.com/rajeet-04/Payroll-AI-webapp) | Public | TypeScript | 05/11/2025 | GPL-3.0 |
@@ -148,7 +151,6 @@ Below is a combined list (public + private) pulled from your GitHub summary. Thi
 | [technologia](https://github.com/rajeet-04/technologia) | Private | JavaScript | 21/10/2025 |  |
 | [player-picture-registration](https://github.com/rajeet-04/player-picture-registration) | Private | TypeScript | 17/10/2025 |  |
 | [ros-movement](https://github.com/rajeet-04/ros-movement) | Public | Shell | 14/10/2025 |  |
-| [classroom-frontend](https://github.com/rajeet-04/classroom-frontend) | Private | JavaScript | 13/10/2025 |  |
 | [ros-sensor-integration](https://github.com/rajeet-04/ros-sensor-integration) | Public | - | 10/10/2025 | Apache-2.0 |
 | [helper](https://github.com/rajeet-04/helper) | Private | Python | 08/10/2025 |  |
 | [gistify](https://github.com/xthxr/gistify) | Public | JavaScript | 06/10/2025 |  |
@@ -161,7 +163,6 @@ Below is a combined list (public + private) pulled from your GitHub summary. Thi
 | [poster](https://github.com/rajeet-04/poster) | Public | HTML | 31/07/2025 |  |
 | [portfolio](https://github.com/rajeet-04/portfolio) | Public (fork) | - | 24/07/2025 |  |
 | [backend](https://github.com/rajeet-04/backend) | Private | Python | 16/06/2025 |  |
-| [musox](https://github.com/rajeet-04/musox) | Public | Python | 15/06/2025 |  |
 | [OFFLINE_FILE_TRANSFER](https://github.com/rajeet-04/OFFLINE_FILE_TRANSFER) | Public | JavaScript | 15/06/2025 |  |
 | [testtt](https://github.com/rajeet-04/testtt) | Private | JavaScript | 10/06/2025 |  |
 | [proj](https://github.com/rajeet-04/proj) | Private | JavaScript | 02/06/2025 |  |
@@ -184,6 +185,7 @@ Below is a combined list (public + private) pulled from your GitHub summary. Thi
 | [test](https://github.com/rajeet-04/test) | Private | CSS | 24/10/2024 |  |
 
 <!-- REPO_TABLE_END -->
+
 
 
 
