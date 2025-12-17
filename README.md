@@ -133,13 +133,13 @@ Below is a combined list (public + private) pulled from your GitHub summary. Thi
 
 | Name | Visibility | Language | Last Updated | Notes |
 |------|------------|----------|--------------|-------|
-| [rajeet-04](https://github.com/rajeet-04/rajeet-04) | Public | JavaScript | 15/12/2025 |  |
+| [rash](https://github.com/rajeet-04/rash) | Public | TypeScript | 16/12/2025 | Apache-2.0 |
+| [rajeet-04](https://github.com/rajeet-04/rajeet-04) | Public | JavaScript | 16/12/2025 |  |
 | [info-guide](https://github.com/rajeet-04/info-guide) | Public | TypeScript | 10/12/2025 |  |
 | [Payroll-AI-webapp](https://github.com/rajeet-04/Payroll-AI-webapp) | Public | TypeScript | 10/12/2025 | GPL-3.0 |
 | [Musox](https://github.com/rajeet-04/Musox) | Private | Dart | 08/12/2025 |  |
 | [musox_archive](https://github.com/rajeet-04/musox_archive) | Public | Python | 08/12/2025 | archived |
 | [classroom-frontend](https://github.com/rajeet-04/classroom-frontend) | Private | JavaScript | 08/12/2025 |  |
-| [rash](https://github.com/rajeet-04/rash) | Public | TypeScript | 04/12/2025 | Apache-2.0 |
 | [musox_frontend_v2](https://github.com/rajeet-04/musox_frontend_v2) | Public | JavaScript | 09/11/2025 |  |
 | [uni-grade-marking-system](https://github.com/rajeet-04/uni-grade-marking-system) | Public | TypeScript | 04/11/2025 |  |
 | [Terminal](https://github.com/rajeet-04/Terminal) | Private | - | 31/10/2025 |  |
@@ -186,6 +186,7 @@ Below is a combined list (public + private) pulled from your GitHub summary. Thi
 | [test](https://github.com/rajeet-04/test) | Private | CSS | 24/10/2024 |  |
 
 <!-- REPO_TABLE_END -->
+
 
 
 
