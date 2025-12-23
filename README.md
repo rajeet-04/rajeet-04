@@ -133,8 +133,8 @@ Below is a combined list (public + private) pulled from your GitHub summary. Thi
 
 | Name | Visibility | Language | Last Updated | Notes |
 |------|------------|----------|--------------|-------|
-| [JUKES](https://github.com/rajeet-04/JUKES) | Public | Kotlin | 22/12/2025 |  |
-| [rajeet-04](https://github.com/rajeet-04/rajeet-04) | Public | JavaScript | 22/12/2025 |  |
+| [JUKES](https://github.com/rajeet-04/JUKES) | Public | Kotlin | 23/12/2025 | AGPL-3.0 |
+| [rajeet-04](https://github.com/rajeet-04/rajeet-04) | Public | JavaScript | 23/12/2025 |  |
 | [JUKE](https://github.com/rajeet-04/JUKE) | Private | TypeScript | 20/12/2025 |  |
 | [musox_frontend_v2](https://github.com/rajeet-04/musox_frontend_v2) | Public | JavaScript | 19/12/2025 |  |
 | [piik.me](https://github.com/rajeet-04/piik.me) | Public (fork) | JavaScript | 18/12/2025 | GPL-3.0 |
@@ -189,6 +189,7 @@ Below is a combined list (public + private) pulled from your GitHub summary. Thi
 | [test](https://github.com/rajeet-04/test) | Private | CSS | 24/10/2024 |  |
 
 <!-- REPO_TABLE_END -->
+
 
 
 
