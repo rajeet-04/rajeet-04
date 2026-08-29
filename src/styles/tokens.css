@@ -1,0 +1,18 @@
+:root {
+  --bg: #f3f0e9;
+  --surface: #fffdf8;
+  --ink: #20211f;
+  --muted: #6d6c66;
+  --line: #d7d2c7;
+  --accent: #b34f2e;
+  --accent-ink: #fffaf2;
+  --max-width: 1240px;
+  --gutter: clamp(1.25rem, 4vw, 4rem);
+  --space-1: .5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2.5rem;
+  --space-5: clamp(4rem, 10vw, 9rem);
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+}

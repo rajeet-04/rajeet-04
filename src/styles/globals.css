@@ -1,15 +1,31 @@
+@import './tokens.css';
+@import './themes.css';
+
 :root {
   font-family: Inter, ui-sans-serif, system-ui, sans-serif;
-  color: #20211f;
-  background: #f3f0e9;
+  color: var(--ink);
+  background: var(--bg);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
 }
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
-body { margin: 0; min-width: 320px; }
+body { margin: 0; min-width: 320px; background: var(--bg); }
 button, a, input, textarea, select { font: inherit; }
 .skip-link { position: fixed; left: 1rem; top: 1rem; z-index: 10; transform: translateY(-200%); }
 .skip-link:focus { transform: translateY(0); }
 :focus-visible { outline: 3px solid #a33f24; outline-offset: 4px; }
+.site-header, .site-footer { align-items: center; display: flex; gap: 1.25rem; margin: 0 auto; max-width: var(--max-width); padding: 1.25rem var(--gutter); }
+.site-header { justify-content: space-between; }
+.site-header nav { display: flex; flex-wrap: wrap; gap: 1rem; }
+a { color: inherit; }
+.wordmark { font-weight: 800; letter-spacing: -.08em; text-decoration: none; }
+.site-header nav a, .site-footer a { color: var(--muted); text-decoration: none; }
+.site-header nav a:hover, .site-footer a:hover { color: var(--accent); }
+.theme-controls { display: flex; gap: .4rem; }
+button { border: 1px solid var(--line); border-radius: 999px; background: transparent; color: var(--ink); cursor: pointer; min-height: 2.5rem; padding: .5rem .8rem; }
+button:hover { border-color: var(--accent); color: var(--accent); }
+.site-footer { border-top: 1px solid var(--line); color: var(--muted); justify-content: space-between; margin-top: var(--space-5); }
+@media (max-width: 720px) { .site-header { align-items: flex-start; flex-wrap: wrap; } .site-header nav { order: 3; width: 100%; } .site-footer { align-items: flex-start; flex-direction: column; } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }

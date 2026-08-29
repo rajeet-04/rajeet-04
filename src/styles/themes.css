@@ -1,0 +1,14 @@
+:root[data-theme='dark'] {
+  --bg: #171816;
+  --surface: #22231f;
+  --ink: #f3f0e9;
+  --muted: #aaa79c;
+  --line: #45463f;
+  --accent: #e47b50;
+  --accent-ink: #171816;
+}
+
+:root[data-contrast='more'] {
+  --line: currentColor;
+  --muted: var(--ink);
+}
