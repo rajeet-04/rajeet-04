@@ -1,9 +1,42 @@
+button, .button, .project-card, .hero__map li a, .link-arrow {
+  transition: transform var(--duration-fast) var(--ease-out), border-color var(--duration-fast) ease, color var(--duration-fast) ease;
+}
+
+button:active, .button:active { transform: scale(.97); }
+
+.site-header nav a::after {
+  background: var(--accent);
+  bottom: -.35rem;
+  content: '';
+  height: 1px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform var(--duration-fast) var(--ease-out);
+}
+
+.terminal-loader {
+  transition: opacity 200ms var(--ease-out), transform 200ms var(--ease-out);
+}
+
+.terminal-loader[data-leaving="true"] { opacity: 0; transform: scale(.98); }
+.terminal-loader__cursor { animation: terminal-cursor 500ms linear infinite; }
+
+@keyframes terminal-cursor { 50% { opacity: 0; } }
+
 @media (hover: hover) and (pointer: fine) {
-  .project-card, .button, .hero__map li a { transition: transform 160ms var(--ease-out), border-color 160ms ease, color 160ms ease; }
   .project-card:hover { transform: translateY(-4px); }
   .hero__map li a:hover, .button:hover { transform: translateY(-2px); }
+  .hero__map li a:hover { border-color: var(--accent); color: var(--accent); }
+  .site-header nav a:hover::after, .site-header nav a:focus-visible::after { transform: scaleX(1); transform-origin: left; }
+  .button:hover .link-arrow, .project-card__actions a:hover .link-arrow, .project-card__details a:hover .link-arrow { transform: translate(2px, -2px); }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .project-card, .button, .hero__map li a { transition: color 160ms ease, border-color 160ms ease; }
+  button, .project-card, .button, .hero__map li a, .link-arrow { transition: color var(--duration-fast) ease, border-color var(--duration-fast) ease; }
+  button:active, .button:active, .terminal-loader[data-leaving="true"] { transform: none; }
+  .terminal-loader { transition: opacity var(--duration-fast) ease; }
+  .terminal-loader__cursor { animation: none; }
 }

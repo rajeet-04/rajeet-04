@@ -15,13 +15,13 @@ export function ProjectCard({ project }: { project: CuratedProject }) {
           <button type="button" aria-expanded={open} aria-controls={`${project.id}-details`} aria-label={`Details for ${project.title}`} onClick={() => setOpen(!open)}>
             {open ? 'Hide details' : 'Details'}
           </button>
-          <a href={project.evidenceUrl} target="_blank" rel="noreferrer">Evidence ↗</a>
+          <a href={project.evidenceUrl} target="_blank" rel="noreferrer">Evidence <span className="link-arrow" aria-hidden="true">↗</span></a>
         </div>
         <div id={`${project.id}-details`} hidden={!open} className="project-card__details">
           <strong>{project.role}</strong>
           <div className="tag-list">{project.stack.map((tag) => <span key={tag}>{tag}</span>)}</div>
-          {project.repositoryUrl && <a href={project.repositoryUrl} target="_blank" rel="noreferrer">Repository ↗</a>}
-          {project.liveUrl && <a href={project.liveUrl} target="_blank" rel="noreferrer">Live / release ↗</a>}
+          {project.repositoryUrl && <a href={project.repositoryUrl} target="_blank" rel="noreferrer">Repository <span className="link-arrow" aria-hidden="true">↗</span></a>}
+          {project.liveUrl && <a href={project.liveUrl} target="_blank" rel="noreferrer">Live / release <span className="link-arrow" aria-hidden="true">↗</span></a>}
         </div>
       </div>
     </article>
