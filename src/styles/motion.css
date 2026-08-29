@@ -1,0 +1,9 @@
+@media (hover: hover) and (pointer: fine) {
+  .project-card, .button, .hero__map li a { transition: transform 160ms var(--ease-out), border-color 160ms ease, color 160ms ease; }
+  .project-card:hover { transform: translateY(-4px); }
+  .hero__map li a:hover, .button:hover { transform: translateY(-2px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .project-card, .button, .hero__map li a { transition: color 160ms ease, border-color 160ms ease; }
+}
