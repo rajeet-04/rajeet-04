@@ -6,7 +6,11 @@ export function ProjectCard({ project }: { project: CuratedProject }) {
 
   return (
     <article className="project-card" aria-label={project.title}>
-      <div className="project-card__visual" aria-hidden="true">{project.category.toUpperCase()}</div>
+      <div className="project-card__visual" data-testid={`project-preview-${project.id}`} data-category={project.category} aria-hidden="true">
+        <div className="project-card__visual-top"><span>0{project.id === 'jukes' ? 1 : project.id === 'intentfence' ? 2 : 3} / {project.category}</span><span>selected system</span></div>
+        <div className="project-card__visual-core"><strong>{project.title}</strong><span className="project-card__visual-pulse" /></div>
+        <div className="project-card__visual-stack">{project.stack.slice(0, 3).map((tag) => <span key={tag}>{tag}</span>)}</div>
+      </div>
       <div className="project-card__body">
         <p className="eyebrow">{project.category} · {project.ownership}</p>
         <h3>{project.title}</h3>
