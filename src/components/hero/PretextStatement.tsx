@@ -13,5 +13,5 @@ export function PretextStatement() {
       setLineCount(1);
     }
   }, []);
-  return <div className="pretext-statement" data-lines={lineCount}><p>{statement}</p><span>{lineCount} line{lineCount === 1 ? '' : 's'} measured with Pretext</span></div>;
+  return <div className="pretext-statement" data-lines={lineCount}><p>{statement}</p></div>;
 }

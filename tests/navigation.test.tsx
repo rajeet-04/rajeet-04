@@ -20,3 +20,17 @@ it('renders an accessible engineering focus list in the hero', () => {
   expect(screen.getByRole('heading', { name: /software engineer/i })).toBeVisible();
   expect(screen.getByRole('list', { name: /engineering focus/i })).toBeVisible();
 });
+
+it('keeps hero supporting content in one flow region', () => {
+  render(<App />);
+  const content = document.querySelector('.hero__map-content');
+  expect(content).toBeInTheDocument();
+  expect(content?.querySelector('.pretext-statement')).toBeInTheDocument();
+  expect(content?.querySelector('ul[aria-label="Engineering focus"]')).toBeInTheDocument();
+});
+
+it('uses intentional headline line groups and hides implementation metadata', () => {
+  render(<App />);
+  expect(document.querySelectorAll('#hero-title .hero__title-line')).toHaveLength(3);
+  expect(screen.queryByText(/measured with pretext/i)).not.toBeInTheDocument();
+});
