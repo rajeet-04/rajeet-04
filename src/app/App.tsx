@@ -2,6 +2,7 @@ import { Header } from '../components/layout/Header';
 import { Footer } from '../components/layout/Footer';
 import { SelectedWorkSection } from '../components/projects/SelectedWorkSection';
 import { ResearchExperienceSection } from '../components/research/ResearchExperienceSection';
+import { ArchiveSection } from '../components/archive/ArchiveSection';
 
 export default function App() {
   return (
@@ -13,7 +14,7 @@ export default function App() {
         <SelectedWorkSection />
         <ResearchExperienceSection />
         <section id="capabilities" className="section"><p className="eyebrow">Capabilities</p><h2>Systems thinking, product instincts.</h2></section>
-        <section id="archive" className="section"><p className="eyebrow">GitHub archive</p><h2>More experiments, in public.</h2></section>
+        <ArchiveSection />
         <section id="contact" className="section"><p className="eyebrow">Contact</p><h2>Have a thoughtful problem?</h2></section>
       </main>
       <Footer />

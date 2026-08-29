@@ -51,6 +51,12 @@ h3 { font-size: 1.4rem; letter-spacing: -.03em; }
 .timeline-item p, .timeline-item h3 { margin: 0; }
 .timeline-item > p:not(.eyebrow) { color: var(--muted); }
 .evidence-label { align-self: start; }
+.archive-section label { color: var(--muted); display: grid; font-size: .8rem; gap: .35rem; }
+.archive-section select { background: var(--surface); border: 1px solid var(--line); color: var(--ink); min-height: 2.5rem; padding: .5rem; }
+.archive-list { border-top: 1px solid var(--line); }
+.archive-row { align-items: center; border-bottom: 1px solid var(--line); display: flex; justify-content: space-between; gap: 1rem; padding: 1rem 0; text-decoration: none; }
+.archive-row span, .archive-note, .empty-state { color: var(--muted); }
+.archive-row:hover strong { color: var(--accent); }
 @media (max-width: 720px) { .section-heading, .timeline-item { display: block; } .section-heading h2 { margin-top: 1rem; } .timeline-item > * { margin-bottom: .7rem !important; } .project-grid { grid-template-columns: 1fr; } }
 @media (max-width: 720px) { .site-header { align-items: flex-start; flex-wrap: wrap; } .site-header nav { order: 3; width: 100%; } .site-footer { align-items: flex-start; flex-direction: column; } }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
