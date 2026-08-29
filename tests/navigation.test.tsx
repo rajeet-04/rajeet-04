@@ -9,7 +9,14 @@ it('renders the portfolio landmark and primary navigation', () => {
 
 it('exposes section links and an accessible theme control', () => {
   render(<App />);
-  expect(screen.getByRole('link', { name: /work/i })).toHaveAttribute('href', '#work');
-  expect(screen.getByRole('link', { name: /research/i })).toHaveAttribute('href', '#research');
+  const navigation = screen.getByRole('navigation', { name: /primary/i });
+  expect(navigation.querySelector('a[href="#work"]')).toBeInTheDocument();
+  expect(navigation.querySelector('a[href="#research"]')).toBeInTheDocument();
   expect(screen.getByRole('button', { name: /theme/i })).toBeInTheDocument();
+});
+
+it('renders an accessible engineering focus list in the hero', () => {
+  render(<App />);
+  expect(screen.getByRole('heading', { name: /software engineer/i })).toBeVisible();
+  expect(screen.getByRole('list', { name: /engineering focus/i })).toBeVisible();
 });
