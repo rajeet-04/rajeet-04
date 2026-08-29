@@ -1,0 +1,29 @@
+import { useState } from 'react';
+import type { CuratedProject } from '../../types/content';
+
+export function ProjectCard({ project }: { project: CuratedProject }) {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <article className="project-card" aria-label={project.title}>
+      <div className="project-card__visual" aria-hidden="true">{project.category.toUpperCase()}</div>
+      <div className="project-card__body">
+        <p className="eyebrow">{project.category} · {project.ownership}</p>
+        <h3>{project.title}</h3>
+        <p>{project.summary}</p>
+        <div className="project-card__actions">
+          <button type="button" aria-expanded={open} aria-controls={`${project.id}-details`} aria-label={`Details for ${project.title}`} onClick={() => setOpen(!open)}>
+            {open ? 'Hide details' : 'Details'}
+          </button>
+          <a href={project.evidenceUrl} target="_blank" rel="noreferrer">Evidence ↗</a>
+        </div>
+        <div id={`${project.id}-details`} hidden={!open} className="project-card__details">
+          <strong>{project.role}</strong>
+          <div className="tag-list">{project.stack.map((tag) => <span key={tag}>{tag}</span>)}</div>
+          {project.repositoryUrl && <a href={project.repositoryUrl} target="_blank" rel="noreferrer">Repository ↗</a>}
+          {project.liveUrl && <a href={project.liveUrl} target="_blank" rel="noreferrer">Live / release ↗</a>}
+        </div>
+      </div>
+    </article>
+  );
+}
